@@ -6,7 +6,7 @@ This project was extracted from the existing `ae.redtoken.iz.keymaster.android` 
 
 - Android namespace/application id: `org.dwdc.keymaster`
 - Kotlin package root: `org.dwdc.keymaster`
-- KeyVault dependency: `org.dwdc:org.dwdc.keyvault.nostr:0.1.0-SNAPSHOT`
+- KeyVault dependency: `org.dwdc:org.dwdc.keyvault.nostr:0.1.0`
 
 ## Requirements
 

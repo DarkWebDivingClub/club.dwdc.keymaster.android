@@ -63,7 +63,7 @@ configurations.all {
 
 dependencies {
     // KeyVault nostr: key derivation + KeyVaultIdentity (IIdentity) + NIP-44 support
-    implementation("org.dwdc:org.dwdc.keyvault.nostr:0.1.0-SNAPSHOT") {
+    implementation("org.dwdc:org.dwdc.keyvault.nostr:0.1.0") {
         exclude(group = "org.bouncycastle", module = "bcprov-jdk15to18")
     }
     // BouncyCastle — needed for Schnorr (BIP-340) and ChaCha20 (NIP-44)
