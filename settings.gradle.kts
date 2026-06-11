@@ -21,5 +21,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "DWDCKeyMaster"
+rootProject.name = "org.dwdc.keymaster.android"
 include(":app")
