@@ -21,5 +21,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "org.dwdc.keymaster.android"
+rootProject.name = "club.dwdc.keymaster.android"
 include(":app")

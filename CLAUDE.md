@@ -2,7 +2,7 @@
 
 ## Project
 
-- Package: `org.dwdc.keymaster`
+- Package: `club.dwdc.keymaster`
 - Kotlin + Jetpack Compose, Gradle 8.11.1, AGP 8.7.3
 - JDK 21 toolchain with Java 17 Android bytecode target
 - NIP-55 Nostr signer for external signing (intents + content provider)

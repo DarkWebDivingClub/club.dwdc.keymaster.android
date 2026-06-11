@@ -9,11 +9,11 @@ kotlin {
 }
 
 android {
-    namespace = "org.dwdc.keymaster"
+    namespace = "club.dwdc.keymaster"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "org.dwdc.keymaster"
+        applicationId = "club.dwdc.keymaster"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
@@ -63,7 +63,7 @@ configurations.all {
 
 dependencies {
     // KeyVault nostr: key derivation + KeyVaultIdentity (IIdentity) + NIP-44 support
-    implementation("org.dwdc:org.dwdc.keyvault.nostr:0.1.0") {
+    implementation("club.dwdc:club.dwdc.keyvault.nostr:0.1.0") {
         exclude(group = "org.bouncycastle", module = "bcprov-jdk15to18")
     }
     // BouncyCastle — needed for Schnorr (BIP-340) and ChaCha20 (NIP-44)

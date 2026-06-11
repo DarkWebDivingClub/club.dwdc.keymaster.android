@@ -1,12 +1,12 @@
-# org.dwdc.keymaster.android
+# club.dwdc.keymaster.android
 
 Android KeyMaster app for DWDC.
 
 This project was extracted from the existing `ae.redtoken.iz.keymaster.android` app and renamed to:
 
-- Android namespace/application id: `org.dwdc.keymaster`
-- Kotlin package root: `org.dwdc.keymaster`
-- KeyVault dependency: `org.dwdc:org.dwdc.keyvault.nostr:0.1.0`
+- Android namespace/application id: `club.dwdc.keymaster`
+- Kotlin package root: `club.dwdc.keymaster`
+- KeyVault dependency: `club.dwdc:club.dwdc.keyvault.nostr:0.1.0`
 
 ## Requirements
 

@@ -50,7 +50,7 @@
         <!-- NIP-55 Content Provider: background operations -->
         <provider
             android:name=".nip55.SignerContentProvider"
-            android:authorities="org.dwdc.keymaster.SIGN_EVENT;org.dwdc.keymaster.NIP44_ENCRYPT;org.dwdc.keymaster.NIP44_DECRYPT"
+            android:authorities="club.dwdc.keymaster.SIGN_EVENT;club.dwdc.keymaster.NIP44_ENCRYPT;club.dwdc.keymaster.NIP44_DECRYPT"
             android:exported="true" />
 
         <!-- NIP-46 Remote Signer Service -->
