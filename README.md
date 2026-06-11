@@ -25,3 +25,8 @@ environment does not use one of these tools.
 
 Gradle and Kotlin use a JDK 21 toolchain. Android Java and Kotlin bytecode remain
 targeted at Java 17 for device compatibility.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 only
+(`GPL-3.0-only`). See [LICENSE](LICENSE).
