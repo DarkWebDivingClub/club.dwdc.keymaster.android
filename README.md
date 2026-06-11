@@ -8,10 +8,20 @@ This project was extracted from the existing `ae.redtoken.iz.keymaster.android` 
 - Kotlin package root: `org.dwdc.keymaster`
 - KeyVault dependency: `org.dwdc:org.dwdc.keyvault.nostr:0.1.0-SNAPSHOT`
 
-Build locally:
+## Requirements
+
+- JDK 21
+- Android SDK 35
+
+The repository includes a `.java-version` file for version managers such as
+`jenv`, `asdf`, and `mise`. Set `JAVA_HOME` to a JDK 21 installation when your
+environment does not use one of these tools.
+
+## Build
 
 ```sh
-JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64 ./gradlew assembleDebug
+./gradlew test assembleDebug
 ```
 
-The default Java 25 runtime in this environment is currently too new for the Kotlin/Gradle stack used by the app.
+Gradle and Kotlin use a JDK 21 toolchain. Android Java and Kotlin bytecode remain
+targeted at Java 17 for device compatibility.
